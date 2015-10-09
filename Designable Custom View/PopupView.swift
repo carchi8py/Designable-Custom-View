@@ -23,6 +23,21 @@ import UIKit
         }
     }
     
+    @IBInspectable var message: String? {
+        get {
+            return messageLabel.text
+        } set(message) {
+            messageLabel.text = message
+        }
+    }
+    
+    @IBInspectable var buttonText: String? {
+        get {
+            return button.titleForState(UIControlState.Normal)
+        } set(text) {
+            button.setTitle(text, forState: UIControlState.Normal)
+        }
+    }
     
     var nibName = "PopupView"
     

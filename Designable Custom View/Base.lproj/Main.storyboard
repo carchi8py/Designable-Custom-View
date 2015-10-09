@@ -27,6 +27,8 @@
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.80616509979999995" blue="0.70542410450000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="IMG_0035.JPG"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="message" value="THis is my message"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Don't touch me"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
