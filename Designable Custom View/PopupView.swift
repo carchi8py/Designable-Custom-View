@@ -14,6 +14,8 @@ import UIKit
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var button: UIButton!
     
+    var view: UIView!
+    
     @IBInspectable var image: UIImage? {
         get {
             return imageView.image
@@ -56,12 +58,15 @@ import UIKit
     }
     
     func setup() {
-        var view = loadViewFromNib()
+        view = loadViewFromNib()
         //You want to use bounds, because it is the local set of x, y
         // frame will not work if we move it in the master view
         view.frame = self.bounds
         view.autoresizingMask = UIViewAutoresizing.FlexibleHeight.union(UIViewAutoresizing.FlexibleWidth)
         addSubview(view)
+        
+        layer.cornerRadius = 20
+        clipsToBounds = true
     }
     
     func loadViewFromNib() -> UIView {
@@ -70,6 +75,11 @@ import UIKit
         //This will grab the top level view
         let view  = nib.instantiateWithOwner(self, options: nil)[0] as! UIView
         return view
+    }
+    
+    //This dosn't run on the Iphone, but runs on in Xcode.
+    override func prepareForInterfaceBuilder() {
+        view.backgroundColor = UIColor.blueColor()
     }
     
   /*
