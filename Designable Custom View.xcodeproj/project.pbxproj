@@ -14,6 +14,9 @@
 		27B379AE1BC766550070DFBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B379AC1BC766550070DFBF /* LaunchScreen.storyboard */; };
 		27B379B91BC766550070DFBF /* Designable_Custom_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B379B81BC766550070DFBF /* Designable_Custom_ViewTests.swift */; };
 		27B379C41BC766550070DFBF /* Designable_Custom_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B379C31BC766550070DFBF /* Designable_Custom_ViewUITests.swift */; };
+		27B379D21BC7677B0070DFBF /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B379D11BC7677B0070DFBF /* PopupView.swift */; settings = {ASSET_TAGS = (); }; };
+		27B379D41BC7679E0070DFBF /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B379D31BC7679E0070DFBF /* PopupView.xib */; settings = {ASSET_TAGS = (); }; };
+		27B379D61BC76BC10070DFBF /* IMG_1758.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27B379D51BC76BC10070DFBF /* IMG_1758.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		27B379BF1BC766550070DFBF /* Designable Custom ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Designable Custom ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B379C31BC766550070DFBF /* Designable_Custom_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Designable_Custom_ViewUITests.swift; sourceTree = "<group>"; };
 		27B379C51BC766550070DFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B379D11BC7677B0070DFBF /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		27B379D31BC7679E0070DFBF /* PopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupView.xib; sourceTree = "<group>"; };
+		27B379D51BC76BC10070DFBF /* IMG_1758.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1758.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				27B379A31BC766550070DFBF /* AppDelegate.swift */,
 				27B379A51BC766550070DFBF /* ViewController.swift */,
+				27B379D11BC7677B0070DFBF /* PopupView.swift */,
+				27B379D31BC7679E0070DFBF /* PopupView.xib */,
 				27B379A71BC766550070DFBF /* Main.storyboard */,
+				27B379D51BC76BC10070DFBF /* IMG_1758.jpg */,
 				27B379AA1BC766550070DFBF /* Assets.xcassets */,
 				27B379AC1BC766550070DFBF /* LaunchScreen.storyboard */,
 				27B379AF1BC766550070DFBF /* Info.plist */,
@@ -229,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B379AE1BC766550070DFBF /* LaunchScreen.storyboard in Resources */,
+				27B379D61BC76BC10070DFBF /* IMG_1758.jpg in Resources */,
+				27B379D41BC7679E0070DFBF /* PopupView.xib in Resources */,
 				27B379AB1BC766550070DFBF /* Assets.xcassets in Resources */,
 				27B379A91BC766550070DFBF /* Main.storyboard in Resources */,
 			);
@@ -255,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B379D21BC7677B0070DFBF /* PopupView.swift in Sources */,
 				27B379A61BC766550070DFBF /* ViewController.swift in Sources */,
 				27B379A41BC766550070DFBF /* AppDelegate.swift in Sources */,
 			);
