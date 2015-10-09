@@ -17,14 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ru-Oa-VSk" customClass="PopupView" customModule="Designable_Custom_View" customModuleProvider="target">
-                                <rect key="frame" x="134" y="133" width="240" height="128"/>
+                                <rect key="frame" x="12" y="20" width="366" height="265"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.80616509979999995" blue="0.70542410450000004" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DWc-qO-UTm" customClass="PopupView" customModule="Designable_Custom_View" customModuleProvider="target">
-                                <rect key="frame" x="169" y="352" width="240" height="128"/>
+                                <rect key="frame" x="20" y="293" width="366" height="292"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.80616509979999995" blue="0.70542410450000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="IMG_0035.JPG"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <animations/>
@@ -33,6 +36,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="220" y="849"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_0035.JPG" width="2448" height="3264"/>
+    </resources>
 </document>

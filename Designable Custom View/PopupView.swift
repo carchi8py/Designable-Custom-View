@@ -8,7 +8,21 @@
 
 import UIKit
 
-class PopupView: UIView {
+@IBDesignable class PopupView: UIView {
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var button: UIButton!
+    
+    @IBInspectable var image: UIImage? {
+        get {
+            return imageView.image
+        }
+        set(image) {
+            imageView.image = image
+        }
+    }
+    
     
     var nibName = "PopupView"
     

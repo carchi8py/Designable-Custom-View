@@ -4,7 +4,13 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopupView" customModule="Designable_Custom_View" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopupView" customModule="Designable_Custom_View" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="dN8-QM-UXb" id="NlY-M8-69L"/>
+                <outlet property="imageView" destination="reJ-Av-Wo9" id="H9U-vO-BcO"/>
+                <outlet property="messageLabel" destination="3BS-Jn-Yii" id="zHD-IS-eNk"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="400" height="300"/>
@@ -30,7 +36,7 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1758.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="reJ-Av-Wo9">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="IMG_1758.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="reJ-Av-Wo9">
                     <rect key="frame" x="0.0" y="0.0" width="400" height="199"/>
                     <animations/>
                 </imageView>
