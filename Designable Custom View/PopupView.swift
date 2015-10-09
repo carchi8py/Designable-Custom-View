@@ -41,6 +41,12 @@ import UIKit
         }
     }
     
+    @IBInspectable var cornerRadius: CGFloat = 0.0 {
+        didSet {
+            layer.cornerRadius = cornerRadius
+        }
+    }
+    
     var nibName = "PopupView"
     
     //When a Programer creates a PopupView

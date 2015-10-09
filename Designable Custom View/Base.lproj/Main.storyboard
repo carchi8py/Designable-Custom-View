@@ -29,6 +29,9 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="IMG_0035.JPG"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="message" value="THis is my message"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Don't touch me"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="80"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
